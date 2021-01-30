@@ -1,0 +1,62 @@
+*{ margin:0;
+  padding:0;
+	box-sizing:border-box;
+	
+}
+body{
+	background: #ffffbc;
+}
+
+.tictac table{
+	width:600px;
+	overflow:hidden;
+	height:600px;
+	border:3px solid black;
+	background:white;
+	position:absolute;
+	left:0;
+	top:0;
+	margin:20px 20px 50px 800px;
+
+}
+
+.tictac table td{
+	width:200px;
+	height:200px;
+	border:3px solid green;
+	
+	
+}
+.tictac table td p{
+	font-size:140px;
+	display:flex;
+	justify-content:center;
+	color:blue;
+	
+}
+.open{
+	width:650px;
+	overflow:hidden;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+
+}
+#reset{
+	
+	font-size:80px;
+	color:green;
+	
+}
+#winner{
+	width:650px;
+	font-size:70px;
+	color:purple;
+	margin:50px 50px 50px 50px;
+}
+#dome{
+	width:650px;
+	font-size:90px;
+	color:red;
+    margin:20px 20px 20px 100px;
+}

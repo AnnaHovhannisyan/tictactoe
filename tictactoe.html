@@ -36,6 +36,7 @@
 </div>
 
 <script>
+/*
 
 let arr1=[];
 let arr2=[];
@@ -156,7 +157,7 @@ let answers3=0;
 let answers4=0;
 let answers5=0;
 let answers6=0;
-let answers7=0;  
+let answers7=0;
 
 let art=0;
 let help=0;
@@ -436,18 +437,18 @@ reset=false;
 clickNine();
 }
 }
- 
- 
- 
+
+
+
  function checkAnswers(){
- 
+
 
  let art=0;
  let help=0;
-  
- 
+
+
  if((clickCount>=5)&&(clickCount<=9)){
- 
+
  if(oper!==true){
 for(let k=0;k<arrfirstA.length;k++){
 for(let z=0;z<arrfirst.length;z++){
@@ -462,7 +463,7 @@ for(let c=0;c<3;c++){
 if(h.indexOf(arrfirstA.indexOf(arrfirstA[k]))=== -1){
  h.push(arrfirstA.indexOf(arrfirstA[k]));
 
- } 
+ }
  }
 }
 }
@@ -486,9 +487,9 @@ arr2.push(arr1[g]);
 for(let j=0;j<arr2.length;j++){
 if(arr2[j]==="0"){
 help++;
-} 
+}
 else if(arr2[j]==="X"){
-art++; 
+art++;
 }
 
 oper2=true;
@@ -499,7 +500,7 @@ oper=true;
 document.getElementById("winner").innerHTML="The first player is the winner";
 document.getElementById("dome").innerHTML="GAME OVER";
 
-} 
+}
 else if(help===3){
 oper=true;
 document.getElementById("winner").innerHTML="The second player is the winner";
@@ -540,8 +541,8 @@ for(let c=0;c<3;c++){
 if(ho.indexOf(arrfirstA.indexOf(arrfirstA[k]))=== -1){
  ho.push(arrfirstA.indexOf(arrfirstA[k]));
 
- } 
- 
+ }
+
  }
 }
 }
@@ -619,7 +620,7 @@ for(let c=0;c<3;c++){
 if(hop.indexOf(arrfirstA.indexOf(arrfirstA[k]))=== -1){
  hop.push(arrfirstA.indexOf(arrfirstA[k]));
 
- } 
+ }
  }
 }
 }
@@ -696,8 +697,8 @@ answers3++;
 for(let c=0;c<3;c++){
 if(hope.indexOf(arrfirstA.indexOf(arrfirstA[k]))=== -1){
  hope.push(arrfirstA.indexOf(arrfirstA[k]));
- 
- } 
+
+ }
  }
 }
 }
@@ -720,7 +721,7 @@ arr5.push(arr1[d]);
 for(let j=0;j<arr5.length;j++){
 if(arr5[j]==="0"){
 help++;
-} 
+}
 else if(arr5[j]==="X"){
 art++;
 }
@@ -775,8 +776,8 @@ answers4++;
 for(let c=0;c<3;c++){
 if(hope1.indexOf(arrfirstA.indexOf(arrfirstA[k]))=== -1){
  hope1.push(arrfirstA.indexOf(arrfirstA[k]));
- } 
- 
+ }
+
  }
 
 }
@@ -799,7 +800,7 @@ arr6.push(arr1[q]);
 for(let j=0;j<arr6.length;j++){
 if(arr6[j]==="0"){
 help++;
-} 
+}
 else if(arr6[j]==="X"){
 art++;}
 
@@ -849,7 +850,7 @@ answers5++;
 for(let c=0;c<3;c++){
 if(hope2.indexOf(arrfirstA.indexOf(arrfirstA[k]))=== -1){
  hope2.push(arrfirstA.indexOf(arrfirstA[k]));
- } 
+ }
  }
 }
 }
@@ -873,7 +874,7 @@ arr7.push(arr1[s]);
 
 for(let j=0;j<arr7.length;j++){
 if(arr7[j]==="0"){
-help++;} 
+help++;}
 else if(arr7[j]==="X"){
 art++;}
 
@@ -924,7 +925,7 @@ answers6++;
 for(let c=0;c<3;c++){
 if(hope3.indexOf(arrfirstA.indexOf(arrfirstA[k]))=== -1){
  hope3.push(arrfirstA.indexOf(arrfirstA[k]));
- } 
+ }
  }
 }
 }
@@ -999,8 +1000,8 @@ for(let c=0;c<3;c++){
 if(hope4.indexOf(arrfirstA.indexOf(arrfirstA[k]))=== -1){
  hope4.push(arrfirstA.indexOf(arrfirstA[k]));
 
- } 
- 
+ }
+
  }
 }
 }
@@ -1177,7 +1178,9 @@ reset=true;
 
 }
 
+*/
 
 </script>
+<script type="text/javascript" src="tictac.js"></script>
 </body>
 </html>
